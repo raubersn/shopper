@@ -6,6 +6,7 @@ import { LoginSignup } from './Pages/LoginSignup.jsx';
 import { Product } from './Pages/Product.jsx';
 import { Shop } from './Pages/Shop.jsx';
 import { ShopCategory } from './Pages/ShopCategory.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 
 function App() {
@@ -25,9 +26,10 @@ function App() {
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/login' element={<LoginSignup/>}/>
           </Routes>
+          <Footer></Footer>
         </BrowserRouter>
       </div>
   );
-};
+}
 
 export default App
