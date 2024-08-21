@@ -25,3 +25,4 @@ dist-ssr
 
 # PODS FILES
 application-test-script*.json
+claim-test-script*.json
